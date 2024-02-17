@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'devnexus'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B83483CD35E144A7BA947A33EBAA53A1 }}
+          publish-profile: '3be94ff8-60da-4b08-a142-5d9cfd4caae6'
           package: '*.jar'
