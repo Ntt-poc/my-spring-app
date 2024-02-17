@@ -35,7 +35,7 @@ jobs:
     needs: build
     environment:
       name: 'Production'
-      url: 'https://sanlinkedin-productionlinkedin.azurewebsites.net'
+      url: 'https://sanlinkedin.azurewebsites.net'
     
     steps:
       - name: Download artifact from build job
